@@ -41,6 +41,10 @@
 
 
 # Solution:
+# change the directory to the directory of this file
+import os
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+
 # Read in the input file
 with open('input.txt') as f:
 	input = f.read()
